@@ -12,11 +12,11 @@ void app_main(void)
 
   while(1) 
   {
-    printf("🐉 Ligando LED\n");
+    printf("༼ つ ◕_◕ ༽つ Ligando LED\n");
     gpio_set_level(LED_PLACA, 1);
     vTaskDelay(1000 / portTICK_PERIOD_MS);
 
-    printf("🦔 Desligando LED\n");
+    printf("(° ͜ʖ ͡°) Desligando LED\n");
     gpio_set_level(LED_PLACA, 0);
     vTaskDelay(1000 / portTICK_PERIOD_MS);
   }

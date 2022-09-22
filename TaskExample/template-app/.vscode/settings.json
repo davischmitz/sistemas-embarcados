@@ -1,5 +1,10 @@
 {
   "C_Cpp.intelliSenseEngine": "Tag Parser",
   "idf.portWin": "COM4",
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "files.associations": {
+    "freertos.h": "c",
+    "stdio.h": "c",
+    "task.h": "c"
+  }
 }
